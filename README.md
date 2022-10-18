@@ -16,6 +16,9 @@
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣦⣤⣀⣀⣀⣀⣀⣀⣀⣀⣤⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 
+Le but de cette manipulation est de lancer automatiquement la calculatrice au moment ou on utilise Ability server
+
+
 Fichier fuzz_vulnserver
 
 Le but est de crash Ability Server. Le fuzzing va permettre de trouver
@@ -39,6 +42,7 @@ Le payload peut être inséré ici
 
 Il faut maintenant manipuler le code pour que ESP=EIP (il contrôle les flux du registre)
 
-
+Le code shell de la calculatrice sera ensuite à intégrer
+![image](https://user-images.githubusercontent.com/85134655/196546879-3261d5df-d897-4c03-9933-80a49a345393.png)
 
 
