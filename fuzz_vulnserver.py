@@ -1,5 +1,6 @@
 import socket
 
+print("Fuzzing for Ability server by Genki, Open source \n")
 buffer=["A"]
 counter=5
 while len(buffer) <= 1000:
